@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
         tv.text = greet()
 
         Log.d("TAG", "FUCK U")
+        Log.d("TAG", "FUCK U2")
     }
 }
