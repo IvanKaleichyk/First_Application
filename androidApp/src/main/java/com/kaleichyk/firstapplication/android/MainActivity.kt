@@ -1,6 +1,7 @@
 package com.kaleichyk.firstapplication.android
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.kaleichyk.firstapplication.Greeting
@@ -16,5 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val tv: TextView = findViewById(R.id.text_view)
         tv.text = greet()
+
+        Log.d("TAG", "FUCK U")
     }
 }
